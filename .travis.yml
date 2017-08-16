@@ -29,6 +29,7 @@ env:
   - CXX=g++-4.8 NODE_ENV=test TEST_DIR=contents
   - CXX=g++-4.8 NODE_ENV=test TEST_DIR=misc-components
   - CXX=g++-4.8 NODE_ENV=test TEST_DIR=navbar-components
+  - CXX=g++-4.8 NODE_ENV=test TEST_DIR=performance
   - CXX=g++-4.8 NODE_ENV=test TEST_DIR=tab-components
 addons:
   apt:
